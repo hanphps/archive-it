@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "archive-it",
+    "description": "Lightweight archive.today website capture extension",
+    "version": "0.0.1",
+    "icons": {
+      "144": "icons/icon.png"
+    },
+
+    "permissions": [
+      "tabs"
+    ],
+
+    "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_title": "Archive it!"
+    },
+  
+
+    "background": {
+      "scripts": ["background.js"]
+    }
+
+  }
